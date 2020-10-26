@@ -4,7 +4,8 @@
   "description": "Node.js Rest Apis with Express, Sequelize & MySQL",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r newrelic --exec babel-node server.js"
   },
   "keywords": [
     "nodejs",
@@ -23,5 +24,11 @@
     "mysql2": "^2.0.2",
     "newrelic": "^6.13.2",
     "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
   }
 }
