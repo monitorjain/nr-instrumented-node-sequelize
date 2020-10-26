@@ -4,6 +4,7 @@ This Instrumented NODEJS App is babelized (executes with babel script) and NR In
 > [Build Node.js Rest APIs with Express, Sequelize & MySQL](https://bezkoder.com/node-js-express-sequelize-mysql/)
 
 ## Project setup
+=============================
 
 * First, start a MYSQL server (and don't change the default password which is "")
 
@@ -36,17 +37,17 @@ This Instrumented NODEJS App is babelized (executes with babel script) and NR In
 
 
 
-### 1.0 Build 
+## 1.0 Build 
 =============================
 Once the Git project is cloned, simply execute the following:
 ```
 npm install
 ```
 
-### 2.0 Run (two options)
+## 2.0 Run (two options)
 =============================
 
-## 2.1 Kickstart with Babel
+### 2.1 Kickstart with Babel
 ```
 npm start
 ```
@@ -54,25 +55,25 @@ npm start
     
 Note: Babel script execution can change the order of execution, hence newrelic is specially passed as the first package as required for dynamic instrumentation
 
-## 2.2 Run directly with the node command (OPTIONAL - cp the backup package.json and remove the default one)
+### 2.2 Run directly with the node command (OPTIONAL - cp the backup package.json and remove the default one)
 ```
 node server.js
 ```
 
 
-### 3.0 Exercise Transactions for Full Observability in New Relic (two options)
+## 3.0 Exercise Transactions for Full Observability in New Relic (two options)
 =============================
 Post an article - use any REST API CLIENT 
 ![article](https://user-images.githubusercontent.com/45892212/97129317-a8d30d80-1792-11eb-91d0-9893370bf313.png)
 
 Full list of transactions are prescribed on this [tutorial blog](https://bezkoder.com/node-js-express-sequelize-mysql/#Test_the_APIs)
 
-### 4.0 Validate New Relic O11y Patterns
+## 4.0 Validate New Relic O11y Patterns
 =============================
 
-## 4.1 Transaction reporting in New Relic APM
+### 4.1 Transaction reporting in New Relic APM
 ![first](https://user-images.githubusercontent.com/45892212/97129443-08311d80-1793-11eb-913e-f06b109ceb18.png)
 
-## 4.2 Distributed Tracing
+### 4.2 Distributed Tracing
 ![second](https://user-images.githubusercontent.com/45892212/97129457-1121ef00-1793-11eb-84a5-7b415ffe9054.png)
 
