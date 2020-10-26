@@ -44,7 +44,8 @@ npm install
 npm start
 ```
     This invokes the babel start script - nodemon -r newrelic --exec babel-node server.js
-    Note: Babel script execution can change the order of execution, hence newrelic is specially passed as the first package as required for dynamic instrumentation
+    
+Note: Babel script execution can change the order of execution, hence newrelic is specially passed as the first package as required for dynamic instrumentation
 
 ## 2.2 Run directly with the node command (OPTIONAL - cp the backup package.json and remove the default one)
 ```
