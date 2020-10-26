@@ -1,4 +1,4 @@
-# New Relic auto-Instrumented Rest APIs with Express, Sequelize & MySQL example
+# New Relic auto-Instrumented NodeJS Sequelize Application
 
 This Instrumented NODEJS App is babelized (executes with babel script) and NR Instrumented and based on the following project by BEZKODER:
 > [Build Node.js Rest APIs with Express, Sequelize & MySQL](https://bezkoder.com/node-js-express-sequelize-mysql/)
@@ -76,4 +76,9 @@ Full list of transactions are prescribed on this [tutorial blog](https://bezkode
 
 ### 4.2 Distributed Tracing
 ![second](https://user-images.githubusercontent.com/45892212/97129457-1121ef00-1793-11eb-84a5-7b415ffe9054.png)
+
+If you get stuck with any particular step, please raise an issue - I'll strive to respond within 24 hours tops
+Also, if you want other use-cases implemented in this project, raise an issue for that as well.
+
+All the best. :)
 
