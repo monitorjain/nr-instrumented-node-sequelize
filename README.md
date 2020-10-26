@@ -19,25 +19,32 @@ This Instrumented NODEJS App is babelized (executes with babel script) and NR In
 
 
 ## Project Specs
+=============================
  
 * Note that the cloned project is pre-installed with New Relic instrumented
 
 * Go to one.newrelic.com by clicking this link - Sign up New Relic Free Account and then visit this [link](https://one.newrelic.com/launcher/account-settings-launcher.account-settings-launcher)
 
 * Copy your license key from this screen and paste it in the newrelic.js file on the home directory of the cloned repo
+
 ![pic](https://user-images.githubusercontent.com/45892212/97128724-2dbd2780-1791-11eb-8052-57a9625eaedd.png)
+
 
 
 ![pic](https://user-images.githubusercontent.com/45892212/97128822-71b02c80-1791-11eb-98f1-63e478ad34f8.png)
 
 
+
+
 ### 1.0 Build 
+=============================
 Once the Git project is cloned, simply execute the following:
 ```
 npm install
 ```
 
 ### 2.0 Run (two options)
+=============================
 
 ## 2.1 Kickstart with Babel
 ```
@@ -51,3 +58,21 @@ Note: Babel script execution can change the order of execution, hence newrelic i
 ```
 node server.js
 ```
+
+
+### 3.0 Exercise Transactions for Full Observability in New Relic (two options)
+=============================
+Post an article - use any REST API CLIENT 
+![article](https://user-images.githubusercontent.com/45892212/97129317-a8d30d80-1792-11eb-91d0-9893370bf313.png)
+
+Full list of transactions are prescribed on this [tutorial blog](https://bezkoder.com/node-js-express-sequelize-mysql/#Test_the_APIs)
+
+### 4.0 Validate New Relic O11y Patterns
+=============================
+
+## 4.1 Transaction reporting in New Relic APM
+![first](https://user-images.githubusercontent.com/45892212/97129443-08311d80-1793-11eb-913e-f06b109ceb18.png)
+
+## 4.2 Distributed Tracing
+![second](https://user-images.githubusercontent.com/45892212/97129457-1121ef00-1793-11eb-84a5-7b415ffe9054.png)
+
