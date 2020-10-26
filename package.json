@@ -15,8 +15,8 @@
     "sequelize",
     "mysql"
   ],
-  "author": "bezkoder",
-  "license": "ISC",
+  "author": "monitorjain",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
