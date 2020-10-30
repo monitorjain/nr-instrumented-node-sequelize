@@ -47,7 +47,7 @@ npm install
 ## 2.0 Run (two options)
 =============================
 
-### 2.1 Kickstart with Babel
+### OPTION 1: 2.1 Kickstart with Babel
 ```
 npm start
 ```
@@ -55,7 +55,7 @@ npm start
     
 Note: Babel script execution can change the order of execution, hence newrelic is specially passed as the first package as required for dynamic instrumentation
 
-### 2.2 Run directly with the node command (OPTIONAL - cp the backup package.json and remove the default one)
+### OPTION 2: 2.2 Run directly with the node command (OPTIONAL - cp the backup package.json and remove the default one)
 ```
 node server.js
 ```
